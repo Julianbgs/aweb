@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+
+@font-face {
+  font-family: 'Arial';
+  src: url("../fonts/ArialRegular/arial.eot") format("embedded-opentype"), url("../fonts/ArialRegular/arial.otf") format("otf"), url("../fonts/ArialRegular/arial.woff2") format("woff2"), url("../fonts/ArialRegular/arial.woff") format("woff"), url("../fonts/ArialRegular/arial.ttf") format("truetype"), url("../fonts/ArialRegular/arial.svg") format("svg");
+  font-weight: 400;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+textarea:hover,
+textarea:focus,
+textarea:active {
+  outline: none;
+}
+
+.container {
+  *zoom: 1;
+}
+
+.container:after {
+  content: '';
+  display: table;
+  line-height: 0;
+  clear: both;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1040px;
+  }
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 104px;
+  background-color: #00bff3;
+}
+
+.header__logo {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 15%;
+  top: 30px;
+}
+
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.header__logo-descr {
+  position: relative;
+  float: left;
+  width: 150px;
+  top: 35px;
+  left: 20px;
+  font-family: "Arial";
+  font-size: 16px;
+  color: white;
+}
+
+.header__number {
+  position: relative;
+  float: left;
+  width: 196px;
+  height: 35px;
+  top: 34px;
+  color: white;
+  font-family: "Arial";
+  line-height: normal;
+  font-size: 30px;
+  left: 178px;
+}
+
+/*# sourceMappingURL=styles.css.map */
